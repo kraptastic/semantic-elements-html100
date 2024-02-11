@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Kyle's Semantic Elements Files</title>
+ </head>
+ <body>
+     <header>
+         <nav><a id="nav-area"></a>it's the nav area. <a href="#page-footer">go to bottom of page?</a></nav>
+     </header>
+     <section>
+         <h1>still using divs? well <b>look here</b></h1>
+  <h3>you are now discovering <em>SEMANTIC ELEMENTS</em></h3>
+  
+  </section>
+     <section id="info-text"><h5>on semantic elements</h5>
+         <article><p>Elements designated as semantic use HTML tags that give an indication of the element's meaning to browsers and developers. Before this practice, pages had many indistinguishable elements that required IDs and classes for selection and identification. Computers and international users did not always benefit from the programmer's choice of ID and class names. While some semantic elements <em>outline</em> the document (&lt;header&gt;, &lt;nav&gt;, &lt;section&gt;) there are also elements with specialized functionality such as &lt;datalist&gt; and &lt;figure&gt;. Each of these elements has accessiblity and searching as main considerations. </p><br><h5>whoa, too much text, let's pay the cat tax</h5>
+             <figure>
+  <img src="cat-tax.jpg" alt="image of two cats sitting at ease" style="width:100%">
+  <figcaption>Kittermin Jones and Mochicat Momo</figcaption>
+</figure>
+             <b>where were we?</b>
+             <p>Consider the use of &lt;section&gt; in comparison to a typical &lt;div&gt; with a class or ID- a &lt;section&gt; is going to behave as a typical &lt;div&gt;, but it's name clearly displays that it is a "section" of the page's outline. Further reading shows the &lt;section&gt; element may contain individual article elements and should have a heading. This standard saves keystrokes and headaches for developers and people or machines accessing the web content. Another semantic element is &lt;nav&gt;, used to indicate links for navigating around the page(s). Interestingly, there is also an element called &lt;aside&gt;, which is usually not viewed by assistive technologies. I am excited to get to use &lt;figure&gt; tag which seems to be a helpful format to enclose &lt;img&gt; elements with accessible information, yet leaving the information readily available for CSS formatting.</p></article>
+     </section>
+     <aside><p>An aside - W3schools said that &lt;asides&gt; don't always get targeted by accessiblity software.</p><blockquote>This is a very rude place to keep a secret?</blockquote></aside>
+     <section id="links-section">
+        <h4>Read more from the abounding <b>l i n k s</b></h4>
+         <ul>
+             <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">semantic elements w3schools</a><br></li>
+         <li><a href="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">Michelle's take at CodePen.io</a></li>
+             </ul>
+     </section>
+     <br><br>
+         <section id="query-forms"><h5>just a few questions for you---</h5>
+         <label for="comments">Any comments or suggestions? </label><br>
+          <textarea id="comments" name="comments" placeholder="we love semantic elements"></textarea>
+             <p>Which semantic elements have you heard of before? (Check all that apply)</p>
+        <label for="figure"><input type="checkbox" id="figure" name="figure"  class="checkboxInputs" value="figure">&lt;figure&gt;</label>
+        <label for="nav"><input type="checkbox" id="nav" name="nav" 
+class="checkboxInputs" value="nav">&lt;nav&gt;</label>
+<br>
+      <input type="submit" id="submit" value="Submit">
+     </section>
+     <br><br>
+     <footer><a href="#nav-area">go to top of page?</a><br>welcome to the footer<br><br>made by USA developers 2024<br><a id="page-footer"></a></footer>
+ </body>
+</html>
